@@ -1,0 +1,32 @@
+body {
+  font-family: 'Alegreya Sans', sans-serif;
+  font-size: 16px;
+  line-height: 1.5;
+  padding-left: 25%; }
+
+h2 {
+  font-family: 'Alegreya', serif;
+  font-weight: normal;
+  margin-bottom: 0.5em;
+  font-size: 25px; }
+
+p {
+  font-size: 25px; }
+
+.section {
+  margin: 0;
+  max-width: 900px;
+  clear: both; }
+  .section:nth-child(odd) .section__image {
+    float: right; }
+  .section:nth-child(odd) .section__content {
+    float: right; }
+  .section__image {
+    float: left;
+    widows: 50%; }
+    .section__image img {
+      max-width: 100%; }
+  .section__content {
+    float: right;
+    width: 50%;
+    padding: 40px; }
